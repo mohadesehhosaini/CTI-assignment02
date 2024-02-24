@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>Movie Reviews Central</h1>
+    <nav>
+        <ul>
+            <li><a href="#last-review">Latest Reviews</a></li>
+            <li><a href="#top-rated">Top Rated</a></li>
+            <li><a href="#contact">Contact US</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <h2 id="last-review">Latest Reviews</h2>
+        <h3>Hotel Mumbai</h3>
+        <img src="https://th.bing.com/th/id/OIP.zr2m6ZHIMf0CJmWTRuZkigHaDt?w=282&h=174&c=7&r=0&o=5&pid=1.7" alt="hotel-mumbai">
+         <p>The true story of the Taj Hotel terrorist attack in Mumbai. Hotel staff risk their lives to keep everyone safe as people make unthinkable sacrifices to protect themselves and their families.</p>
+         <!-- <video controls>
+            <source src="https://youtu.be/ucYIwvZYGp8?t=120.mp4" type="vidio/mp4">
+         </video> -->
+         <iframe width="400" height="315" src="https://www.youtube.com/embed/ucYIwvZYGp8?si=EKi_W2_wtr5mo3qN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+         <a href="https://www.bing.com/ck/a?!&&p=100b08bd5021b4b2JmltdHM9MTcwODczMjgwMCZpZ3VpZD0wMjg4NzRhNi00NjA2LTY1MzQtMmI5NC02NjE3NDdhMDY0MGQmaW5zaWQ9NTQ2MQ&ptn=3&ver=2&hsh=3&fclid=028874a6-4606-6534-2b94-661747a0640d&psq=hotel+bambai+movie&u=a1aHR0cHM6Ly93d3cuaW1kYi5jb20vdGl0bGUvdHQ1NDYxOTQ0L3Jldmlld3M&ntb=1">Read full review</a>
+        <h2 id="top-rated">Top Rated Movies</h2>
+        <table cellspacing="5">
+            <tr>
+                <th>Rank</th>
+                <th>Title</th>
+                <th>Year</th>
+                <th>Rating</th>
+                <th>Genre</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Hotel Mumbai</td>
+                <td>2018</td>
+                <td>⭐⭐⭐⭐</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Wednesday</td>
+                <td>2022</td>
+                <td>⭐⭐⭐⭐</td>
+                <td>Imaginary,scarry</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mester Queen</td>
+                <td>2021</td>
+                <td>⭐⭐⭐⭐⭐</td>
+                <td>Comedy,Romance</td>
+            </tr>
+        </table>
+         <h2>Related Links</h2>
+         
+            <aside>
+                <ul>
+                    <li><a href="https://www.bing.com/ck/a?!&&p=e285645b9e5b37d4JmltdHM9MTcwODczMjgwMCZpZ3VpZD0wMjg4NzRhNi00NjA2LTY1MzQtMmI5NC02NjE3NDdhMDY0MGQmaW5zaWQ9NTEwNQ&ptn=3&ver=2&hsh=3&fclid=028874a6-4606-6534-2b94-661747a0640d&u=a1L3ZpZGVvcy9zZWFyY2g_cT1pbnRlcnZpZXcrd2l0aCtkaXJlY3Rvcitmcm9tK2hvdGVsK211bWJhaSZxcHZ0PWludGVydmlldyt3aXRoK2RpcmVjdG9yK2Zyb20raG90ZWwrbXVtYmFpJkZPUk09VkRSRQ&ntb=1">Interview with players of Hotrl MumbaiI</a></li>
+                    <li><a href="https://www.bing.com/ck/a?!&&p=c0c20ef35baeb01eJmltdHM9MTcwODczMjgwMCZpZ3VpZD0wMjg4NzRhNi00NjA2LTY1MzQtMmI5NC02NjE3NDdhMDY0MGQmaW5zaWQ9NTIxMA&ptn=3&ver=2&hsh=3&fclid=028874a6-4606-6534-2b94-661747a0640d&psq=upcoming+movie&u=a1aHR0cHM6Ly93d3cucm90dGVudG9tYXRvZXMuY29tL2Jyb3dzZS9tb3ZpZXNfY29taW5nX3Nvb24&ntb=1">New movies at 2024</a></li>
+                </ul>
+            </aside>
+            <h2 id="contact">Contact us</h2>
+            <form>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="first-name"><br>
+                <label for="email">Email: </label>
+                <input type="text" id="email" name="email"><br>
+                <label for="genre">Favorite Movie Genre: </label>
+                <select id="genre" name="genre-list">
+                    <option>action</option>
+                    <option value="imaginary">Imaginary</option>
+                    <option value="scarry">scarry</option>
+                    <option value="Comedy">Comedy</option>
+                    <option value="Romance">Romance</option>
+                </select><br>
+                <label for="message">Message: </label>
+                <textarea name="text-message" id="message" cols="20" rows="5"></textarea><br>
+                <input type="checkbox" id="subscribe" name="checkbox">
+                <label for="subscribe">Subscribe to newsletter</label><br>
+                <button value="send">Send</button>
+                
+            </form>
+         <footer style="margin: 15px;"> 2024 Movie Reviews Central</footer>
+    </main>
+</body>
+</html>
